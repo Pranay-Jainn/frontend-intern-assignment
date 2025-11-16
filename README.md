@@ -3,10 +3,10 @@ Mini Product Dashboard
 A responsive, interactive Vanilla JavaScript product dashboard built for the Frontend Internship Assignment, featuring product listing, filtering, sorting, pagination, modal previews, dark/light theme, favorites, offline fallback, and smooth UI animations.
 
 Live Demo
-https://frontend-intern-assignment.netlify.app/
+[mini-product-dashboard.netlify.app](https://mini-product-dashboard.netlify.app/)
 
 GitHub Repository
-https://github.com/pranay-jainn/frontend-intern-assignment
+[https://github.com/pranay-jainn/frontend-intern-assignment](https://github.com/Pranay-Jainn/frontend-intern-assignment)
 
 Project Structure
 frontend-intern-assignment/
