@@ -1,0 +1,82 @@
+[
+  {
+    "id":1,
+    "title":"Classic White T-Shirt",
+    "price":249.0,
+    "description":"Comfortable cotton t-shirt with regular fit.",
+    "category":"men's clothing",
+    "image": "https://placehold.co/300x300?text=White+T-Shirt"
+  },
+  {
+    "id":2,
+    "title":"Running Sneakers",
+    "price":3499.0,
+    "description":"Lightweight running shoes for daily training.",
+    "category":"shoes",
+    "image": "https://placehold.co/300x300?text=Sneakers"
+  },
+  {
+    "id":3,
+    "title":"Bluetooth Headphones",
+    "price":1999.0,
+    "description":"Wireless on-ear headphones with long battery life.",
+    "category":"electronics",
+    "image": "https://placehold.co/300x300?text=Headphones"
+  },
+  {
+    "id":4,
+    "title":"Smart Watch",
+    "price":5499.0,
+    "description":"Fitness friendly smartwatch with heart-rate monitoring.",
+    "category":"electronics",
+    "image": "https://placehold.co/300x300?text=Smart+Watch"
+  },
+  {
+    "id":5,
+    "title":"Leather Wallet",
+    "price":899.0,
+    "description":"Compact bi-fold wallet made of genuine leather.",
+    "category":"accessories",
+    "image": "https://placehold.co/300x300?text=Wallet"
+  },
+  {
+    "id":6,
+    "title":"Sunglasses",
+    "price":1299.0,
+    "description":"Polarized sunglasses with UV protection.",
+    "category":"accessories",
+    "image": "https://placehold.co/300x300?text=Sunglasses"
+  },
+  {
+    "id":7,
+    "title":"Denim Jeans",
+    "price":1899.0,
+    "description":"Regular fit denim jeans for everyday wear.",
+    "category":"men's clothing",
+    "image": "https://placehold.co/300x300?text=Jenes"
+  },
+  {
+    "id":8,
+    "title":"Ceramic Mug",
+    "price":349.0,
+    "description":"Microwave-safe ceramic mug, 350ml.",
+    "category":"home",
+    "image": "https://placehold.co/300x300?text=Mug"
+  },
+  {
+    "id":9,
+    "title":"Desk Lamp",
+    "price":999.0,
+    "description":"LED desk lamp with adjustable brightness.",
+    "category":"home",
+    "image": "https://placehold.co/300x300?text=Lamp"
+  },
+  {
+    "id":10,
+    "title":"Backpack",
+    "price":2199.0,
+    "description":"Durable backpack with laptop sleeve.",
+    "category":"bags",
+    "image": "https://placehold.co/300x300?text=Backpack"
+  }
+]
