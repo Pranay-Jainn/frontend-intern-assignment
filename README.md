@@ -1,12 +1,15 @@
 # Mini Product Dashboard
 
-A responsive, interactive Vanilla JavaScript product dashboard built for the Frontend Internship Assignment, featuring product listing, filtering, sorting, pagination, modal previews, dark/light theme, favorites, offline fallback, and smooth UI animations.
+A responsive and interactive product dashboard built using HTML, CSS, and Vanilla JavaScript for the Frontend Internship Assignment.
+It supports product listing, filtering, sorting, pagination, modal previews, dark/light theme switching, persistent favorites, offline fallback, and smooth UI animations.
 
 # Live Demo
-[mini-product-dashboard.netlify.app](https://mini-product-dashboard.netlify.app/)
+
+https://mini-product-dashboard.netlify.app/
 
 # GitHub Repository
-[https://github.com/pranay-jainn/frontend-intern-assignment](https://github.com/Pranay-Jainn/frontend-intern-assignment)
+
+https://github.com/Pranay-Jainn/frontend-intern-assignment
 
 # Project Structure
 frontend-intern-assignment/
@@ -16,83 +19,128 @@ frontend-intern-assignment/
 │── data.json
 │── README.md
 
-# Setup Instructions
-1️. Clone the repository
+# Getting Started
+1. Clone the repository
 git clone https://github.com/YOUR-USERNAME/frontend-intern-assignment.git
 cd frontend-intern-assignment
 
-2️. Run a local server
+2. Run a local development server
 
-Because browsers block local JSON loading from file://, you MUST run a server.
+Modern browsers block JSON loading via the file:// protocol.
+To ensure the fallback JSON loads correctly, you must use a local server.
 
-Option A — Using VS Code Live Server
+Option A — VS Code Live Server
+
 Right-click index.html → Open with Live Server
 
-Option B — Using Python
+Option B — Python HTTP Server
 python -m http.server 5500
+
 
 Then open:
 http://localhost:5500
 
-| Component   | Tech                                |
+# Technology Stack
+| Component   | Technology                          |
 | ----------- | ----------------------------------- |
-| UI          | HTML5 + CSS3                        |
+| UI          | HTML5, CSS3                         |
 | Logic       | Vanilla JavaScript                  |
-| Data Source | FakeStore API + Local JSON fallback |
-| Animation   | CSS transitions                     |
+| Data Source | FakeStore API + Local JSON Fallback |
+| Animations  | CSS Transitions                     |
 | Storage     | localStorage                        |
-| Hosting     | Vercel / Netlify / GitHub Pages     |
+| Hosting     | Netlify / Vercel / GitHub Pages     |
 
-# How It Works
-1. API Fetch
-App tries to load data from FakeStore API
-If API fails → loads local data.json
 
-2. Filtering / Sorting
-Filters by:
-Search text
-Category
-Sorting:
-Price low → high
-Price high → low
+# Application Workflow
+
+1. Data Loading
+
+The application first attempts to fetch product data from the FakeStore API.
+If the request fails (offline or network issue), it automatically loads data.json as a fallback.
+
+2. Filtering and Sorting
+
+Users can dynamically filter and sort products:
+
+Search by text
+
+Filter by category
+
+Sort by price (low to high / high to low)
 
 3. Pagination
+
 Displays 6 products per page
 
-4. Modal
-Clicking a card opens a detailed modal view
-Favorite + Add to Cart buttons available inside modal
+Next/Previous buttons update the product grid
 
-5. Dark/Light Theme
-Saves preference in localStorage
-Auto-applies on page load
+4. Product Modal
 
-6. Favorites
-Stored using Set() for fast lookups
-Persisted in localStorage
+Clicking a product card opens a detailed modal window
 
-Features
- Core Features
+Displays product image, title, description, category, and price
 
-Product Fetching from API
-Offline fallback (auto loads data.json if API fails)
-Async/Await based fetching with proper try/catch handling
-Dynamic category filtering
-Real-time product search
-Sort by price (Low→High / High→Low)
+Includes Favorite and Add-to-Cart actions inside the modal
 
-# UI & UX Features
-Fully responsive layout
-Mobile-optimized navbar
-Smooth fade-in animations
-Modal with product preview
-Skeleton loader while fetching
-Dark/Light theme toggle (saved in localStorage)
-Favorites system with persistent storage
-Image lazy loading for performance
+5. Theme Switching
 
- Favorites
+Supports Dark and Light mode
 
-Add/remove products from favorites
-Favorites count updates live
-Stored in localStorage so they stay even after refresh
+Theme preference is saved in localStorage
+
+Automatically applied on page load
+
+6. Favorites System
+
+Users can mark items as favorite
+
+Favorite state is stored using a JavaScript Set
+
+Persists in localStorage
+
+Favorites count updates instantly
+
+Favorites remain even after page reload
+
+Features Overview
+Core Features
+
+Product fetching from a live API
+
+Automatic offline fallback using local JSON
+
+Modern async/await-based data loading
+
+Search filtering and category-based filtering
+
+Sort by price
+
+Pagination system
+
+Data normalization for consistent UI rendering
+
+# UI and UX Features
+
+Fully responsive layout (mobile, tablet, and desktop)
+
+Mobile-optimized navbar and filter controls
+
+Smooth fade-in animations for cards
+
+Modal with detailed product preview
+
+Skeleton loader during data fetch
+
+Theme toggle with persistence
+
+Lazy-loaded product images
+
+Favorites Management
+
+Add and remove favorites
+
+Instant UI update
+
+Persistent storage with localStorage
+
+Favorite status synced between cards and modal
