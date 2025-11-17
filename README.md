@@ -1,14 +1,14 @@
-Mini Product Dashboard
+# Mini Product Dashboard
 
 A responsive, interactive Vanilla JavaScript product dashboard built for the Frontend Internship Assignment, featuring product listing, filtering, sorting, pagination, modal previews, dark/light theme, favorites, offline fallback, and smooth UI animations.
 
-Live Demo
+# Live Demo
 [mini-product-dashboard.netlify.app](https://mini-product-dashboard.netlify.app/)
 
-GitHub Repository
+# GitHub Repository
 [https://github.com/pranay-jainn/frontend-intern-assignment](https://github.com/Pranay-Jainn/frontend-intern-assignment)
 
-Project Structure
+# Project Structure
 frontend-intern-assignment/
 │── index.html
 │── styles.css
@@ -16,7 +16,7 @@ frontend-intern-assignment/
 │── data.json
 │── README.md
 
-Setup Instructions
+# Setup Instructions
 1️. Clone the repository
 git clone https://github.com/YOUR-USERNAME/frontend-intern-assignment.git
 cd frontend-intern-assignment
@@ -43,7 +43,7 @@ http://localhost:5500
 | Storage     | localStorage                        |
 | Hosting     | Vercel / Netlify / GitHub Pages     |
 
-How It Works
+# How It Works
 1. API Fetch
 App tries to load data from FakeStore API
 If API fails → loads local data.json
@@ -81,7 +81,7 @@ Dynamic category filtering
 Real-time product search
 Sort by price (Low→High / High→Low)
 
- UI & UX Features
+# UI & UX Features
 Fully responsive layout
 Mobile-optimized navbar
 Smooth fade-in animations
