@@ -14,13 +14,15 @@ https://github.com/Pranay-Jainn/frontend-intern-assignment
 # Project Structure
 frontend-intern-assignment/
 
-│── index.html
+  │── index.html
 
-│── styles.css │── script.js
+  │── styles.css
+  
+  │── script.js
 
-│── data.json
+  │── data.json
 
-│── README.md
+  │── README.md
 
 # Getting Started
 1. Clone the repository
