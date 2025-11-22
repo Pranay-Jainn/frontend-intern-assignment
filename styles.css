@@ -125,7 +125,7 @@ body.dark .site-header{
   }
 }
 
-/* ✨ From 720px to 480px → 2 columns */
+/* From 720px to 480px → 2 columns */
 @media (min-width: 480px) and (max-width: 720px) {
   .product-grid {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -135,7 +135,7 @@ body.dark .site-header{
   }
 }
 
-/* ✨ Below 480px → 1 column */
+/*  Below 480px → 1 column */
 @media (max-width: 479px) {
   .product-grid {
     grid-template-columns: 1fr !important;
@@ -216,7 +216,7 @@ body.dark .card:hover{
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
-/* Fade-in animation for product cards */
+/* this animation is for product cards */
 .fade-in {
   opacity: 0;
   transform: translateY(10px);
@@ -306,10 +306,8 @@ body.dark .card:hover{
   font-size: 14px;
   color: var(--muted);
 }
-/* ---------------------------
-   Modal Buttons (Animated)
----------------------------- */
 
+/* Modal Buttons */
 .modal-content button {
   padding: 10px 16px;
   border-radius: 10px;
@@ -322,7 +320,6 @@ body.dark .card:hover{
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
-/* Hover animation */
 .modal-content button:hover {
   background: #f1f5f9;
   transform: translateY(-3px);
@@ -583,7 +580,7 @@ body,
     box-shadow 0.35s ease;
 }
 
-/* MOBILE HEADER LAYOUT FIX */
+/* MOBILE HEADER LAYOUT */
 @media (max-width: 600px) {
   .header-row {
     flex-direction: column;
