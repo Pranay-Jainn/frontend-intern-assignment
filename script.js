@@ -1,9 +1,3 @@
-/* Mini Product Dashboard - Vanilla JS (Updated)
-   - Uses async/await
-   - Smooth fade-in animation
-   - API fallback
-*/
-
 const API = "https://fakestoreapi.com/products";
 const FALLBACK = "data.json";
 const PER_PAGE = 6;
@@ -284,7 +278,7 @@ function closeModal() {
     modal.classList.remove("open", "closing");
     modal.setAttribute("aria-hidden", "true");
     modalBody.innerHTML = "";
-  }, 250); // match CSS animation duration
+  }, 250);
 }
 
 function toggleFavorite(id, el) {
