@@ -308,12 +308,4 @@ function truncate(s, n) {
 function formatPrice(n) {
   return Number(n).toLocaleString("en-IN");
 }
-function escapeHtml(str) {
-  return String(str).replace(
-    /[&<>"']/g,
-    (m) =>
-      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[
-        m
-      ])
-  );
-}
+
